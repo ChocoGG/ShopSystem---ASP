@@ -26,5 +26,6 @@ namespace ShopSystem.Core.Models
         {
             this.ID = Guid.NewGuid().ToString();
         }
+       public List<decimal> PriceHistory = new List<decimal>();
     }
 }
